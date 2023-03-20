@@ -1,0 +1,56 @@
+body{
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: yellow;
+    font-family: cursive;
+    text-align: center;
+}
+.form{
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-color:white;
+    border-radius: 7px;
+    margin:10px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#score{
+    align-self: flex-end;
+    height:0px;
+    color:green;
+}
+.input {
+    height:40px;
+    border-radius: 5px;
+    border: 4px solid green;
+   
+}
+.input::placeholder{
+    text-align: center;
+    font-family: cursive;
+    color: lightgray;
+    font-size: 25px;
+    padding-top:10px;
+}
+.btn{
+    height: 40px;
+    color:white;
+    background-color: green;
+    margin-top:10px;
+    font-size: 25px;
+    border:none;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+.btn:hover{
+    filter:brightness(0.9);
+}
+
+
